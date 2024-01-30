@@ -5,7 +5,7 @@ using R5T.T0131;
 
 namespace R5T.F0044
 {
-	[DraftValuesMarker]
+	[ValuesMarker]
 	public partial interface INameTokens : IDraftValuesMarker
 	{
         public string Client => "Client";
